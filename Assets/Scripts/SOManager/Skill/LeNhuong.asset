@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: LeNhuong
+  m_EditorClassIdentifier: 
+  skillName: "L\u1EC5 Nh\u01B0\u1EE3ng"
+  skillDescription: "Khi b\xE0i c\u1EE7a b\u1EA1n \u0111i v\xE0o ch\u1ED3ng b\xE0i
+    b\u1ECF do b\u1ECB b\u1ECF \u0111i, b\u1EA1n c\xF3 th\u1EC3 \u0111em t\xF9y \xFD
+    l\u01B0\u1EE3ng b\xE0i trong s\u1ED1 \u0111\xF3 giao cho m\u1ED9t ng\u01B0\u1EDDi
+    ch\u01A1i kh\xE1c."
+  urlVoice: 
