@@ -17,4 +17,6 @@ MonoBehaviour:
     ly \u0111\u1EBFn ng\u01B0\u1EDDi ch\u01A1i kh\xE1c -1. N\u1EBFu s\u1ED1 sinh
     l\u1EF1c \u0111\xE3 m\u1EA5t c\u1EE7a b\u1EA1n \u2265 2, ng\u01B0\u1EDDi ch\u01A1i
     kh\xE1c t\xEDnh to\xE1n c\u1EF1 ly \u0111\u1EBFn b\u1EA1n +1."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/gongsunzanpo05/GongSunZan_YiCong_Attack_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/gongsunzanpo05/GongSunZan_YiCong_Defense_01.mp3

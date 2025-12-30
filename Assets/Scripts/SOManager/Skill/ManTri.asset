@@ -21,4 +21,6 @@ MonoBehaviour:
     \u0111a hai th\u1EBB b\xE0i trong v\xF9ng ch\u01A1i c\u1EE7a h\u1ECD, sau \u0111\xF3
     giao cho h\u1ECD c\xF9ng l\u01B0\u1EE3ng b\xE0i r\u1ED3i r\xFAt m\u1ED9t th\u1EBB
     b\xE0i."
-  urlVoice: []
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/mengyou01/MengYou_ManZhi_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/mengyou01/MengYou_ManZhi_02.mp3

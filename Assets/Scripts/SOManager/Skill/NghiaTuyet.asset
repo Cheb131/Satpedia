@@ -24,4 +24,6 @@ MonoBehaviour:
     g\xE2y s\xE1t th\u01B0\u01A1ng +1; N\u1EBFu th\u1EBB b\xE0i n\xE0y l\xE0 s\u1EAFc
     \u0111\u1ECF, b\u1EA1n thu l\u1EA5y n\xF3, sau \u0111\xF3 b\u1EA1n c\xF3 th\u1EC3
     l\u1EC7nh ng\u01B0\u1EDDi \u0111\xF3 h\u1ED3i 1 sinh l\u1EF1c."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/300jieguanyu/1skill2_1.mp3
+  - https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/300jieguanyu/1skill2_2.mp3
