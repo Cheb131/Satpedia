@@ -17,4 +17,6 @@ MonoBehaviour:
     b\u1ECF do b\u1ECB b\u1ECF \u0111i, b\u1EA1n c\xF3 th\u1EC3 \u0111em t\xF9y \xFD
     l\u01B0\u1EE3ng b\xE0i trong s\u1ED1 \u0111\xF3 giao cho m\u1ED9t ng\u01B0\u1EDDi
     ch\u01A1i kh\xE1c."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/kongrong04/KongRong_LiRang_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/kongrong04/KongRong_LiRang_02.mp3

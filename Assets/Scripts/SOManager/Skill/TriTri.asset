@@ -17,4 +17,6 @@ MonoBehaviour:
     th\u01B0\u01A1ng \u1EDF ngo\xE0i l\u01B0\u1EE3t, l\u01B0\u1EE3t hi\u1EC7n t\u1EA1i
     th\u1EBB [S\xE1t] v\xE0 C\xF4ng c\u1EE5 ph\u1ED5 th\xF4ng v\xF4 hi\u1EC7u \u0111\u1ED1i
     v\u1EDBi b\u1EA1n."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/1skill2_1.mp3
+  - https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/1skill2_2.mp3

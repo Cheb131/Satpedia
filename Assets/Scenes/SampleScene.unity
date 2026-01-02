@@ -1799,9 +1799,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allSkills:
-  - {fileID: 11400000, guid: 1844b0367a0ae8240bfbd9a4a6c30f60, type: 2}
-  - {fileID: 11400000, guid: a789766e6996c81458851c6f1966302b, type: 2}
-  - {fileID: 11400000, guid: 6eeb460a72406c5408ec62882feabac2, type: 2}
+  - {fileID: 11400000, guid: f78e0fe5af6fa1045bbc92a0c49415da, type: 2}
+  - {fileID: 11400000, guid: f661e4bd575382141b08e6f9af2f47fd, type: 2}
+  - {fileID: 11400000, guid: 8014870e54eb2db4ab7c514404b877d3, type: 2}
+  - {fileID: 11400000, guid: 46238b83c9aad754ab7d12b6683ffe7a, type: 2}
+  - {fileID: 11400000, guid: 0e8d0060d2f8d67438cd748f4598340d, type: 2}
+  - {fileID: 11400000, guid: 7edd6c0efc24eec48b0510f8d8c2ece2, type: 2}
+  - {fileID: 11400000, guid: 4cc09bb0971f503499f4377f306b192a, type: 2}
+  - {fileID: 11400000, guid: 6b54ed3b4c5dc5e4bab940539651d99c, type: 2}
+  - {fileID: 11400000, guid: 3fe95f92f56e4a84b8a079d791856946, type: 2}
   - {fileID: 11400000, guid: d408c74ea4be87146a994a5d3bdd11f9, type: 2}
   - {fileID: 11400000, guid: 5f31a352afa9462468f580583192e0ca, type: 2}
   - {fileID: 11400000, guid: cc5d65ed1c923134189af64f249a765d, type: 2}
@@ -1813,15 +1819,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7a1e8a8ed7898974e9699ffee37eba16, type: 2}
   - {fileID: 11400000, guid: 2519aadbc882bfb4fb798dcaa9d30f3e, type: 2}
   - {fileID: 11400000, guid: 2ee078223e954f84abd8b03f0dfe2aaf, type: 2}
-  - {fileID: 11400000, guid: 4cc09bb0971f503499f4377f306b192a, type: 2}
-  - {fileID: 11400000, guid: 6b54ed3b4c5dc5e4bab940539651d99c, type: 2}
-  - {fileID: 11400000, guid: 3fe95f92f56e4a84b8a079d791856946, type: 2}
-  - {fileID: 11400000, guid: 8014870e54eb2db4ab7c514404b877d3, type: 2}
-  - {fileID: 11400000, guid: 46238b83c9aad754ab7d12b6683ffe7a, type: 2}
-  - {fileID: 11400000, guid: 0e8d0060d2f8d67438cd748f4598340d, type: 2}
-  - {fileID: 11400000, guid: 7edd6c0efc24eec48b0510f8d8c2ece2, type: 2}
-  - {fileID: 11400000, guid: f78e0fe5af6fa1045bbc92a0c49415da, type: 2}
-  - {fileID: 11400000, guid: f661e4bd575382141b08e6f9af2f47fd, type: 2}
+  - {fileID: 11400000, guid: 1844b0367a0ae8240bfbd9a4a6c30f60, type: 2}
+  - {fileID: 11400000, guid: a789766e6996c81458851c6f1966302b, type: 2}
+  - {fileID: 11400000, guid: 6eeb460a72406c5408ec62882feabac2, type: 2}
   buttonDonThe: {fileID: 985875350}
   skillPanel: {fileID: 255023551}
   skillButtons:
@@ -2442,9 +2442,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Don The
-
-'
+  m_text: "\u0110\u1ED9n Th\u1EBF\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}

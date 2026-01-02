@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
-  m_Name: NghiaTuyet
+  m_Name: NghiaTuyet_Gioi
   m_EditorClassIdentifier: 
   skillName: "Ngh\u0129a Tuy\u1EC7t"
   skillDescription: "M\u1ED9t l\u1EA7n trong giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng

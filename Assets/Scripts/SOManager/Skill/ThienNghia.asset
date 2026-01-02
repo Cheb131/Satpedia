@@ -19,4 +19,6 @@ MonoBehaviour:
     b\u1EA1n s\u1EED d\u1EE5ng trong l\u01B0\u1EE3t n\xE0y kh\xF4ng h\u1EA1n ch\u1EBF
     c\u1EF1 li \u0111\u1ED3ng th\u1EDDi s\u1ED1 l\u1EA7n s\u1EED d\u1EE5ng [S\xE1t]
     v\xE0 s\u1ED1 m\u1EE5c ti\xEAu c\u1EE7a th\u1EBB [S\xE1t] +1."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/taishici01/TaiShiCi_TianYi_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/taishici01/TaiShiCi_TianYi_02.mp3

@@ -18,4 +18,6 @@ MonoBehaviour:
     \u0111em hai th\u1EBB b\xE0i \u0111\u1EB7t l\xEAn tr\xEAn v\xF5 t\u01B0\u1EDBng,
     g\u1ECDi l\xE0 [M\u1EC5]; Khi b\u1EA1n m\u1EA5t \u0111i m\u1ED9t [M\u1EC5] cu\u1ED1i
     c\xF9ng, b\u1EA1n h\u1ED3i ph\u1EE5c 1 sinh l\u1EF1c."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/zhanglu01/ZhangLu_YiShe_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/zhanglu01/ZhangLu_YiShe_02.mp3

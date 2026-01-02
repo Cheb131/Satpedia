@@ -24,4 +24,6 @@ MonoBehaviour:
     sinh l\u1EF1c \u0111\u1ED3ng th\u1EDDi r\xFAt X th\u1EBB b\xE0i (X l\xE0 s\u1ED1
     l\u1EA7n b\u1EA1n \u0111\xE3 ch\u1ECDn m\u1EE5c s\u1ED1 3); 3.  X\xF3a b\u1ECF
     t\xEAn th\u1EBB b\xE0i m\xE0 b\u1EA1n v\u1EEBa xem nh\u01B0 s\u1EED d\u1EE5ng."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/guanning01/GuanNing_DunShi_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/guanning01/GuanNing_DunShi_02.mp3

@@ -16,4 +16,6 @@ MonoBehaviour:
   skillDescription: "T\u1ECFa \u0111\u1ECBnh k\u0129 M\u1ED7i khi c\xF3 s\xE1t th\u01B0\u01A1ng
     b\u1ECB gi\u1EA3m \xEDt \u0111i ho\u1EB7c b\u1ECB ng\u0103n ch\u1EB7n, b\u1EA1n
     r\xFAt hai th\u1EBB b\xE0i."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/luotong01/LuoTong_RenZheng_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/luotong01/LuoTong_RenZheng_02.mp3

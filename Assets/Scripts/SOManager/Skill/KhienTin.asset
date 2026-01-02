@@ -24,4 +24,6 @@ MonoBehaviour:
     1. L\u1EC7nh b\u1EA1n b\u1ED5 sung b\xE0i tr\xEAn tay \u0111\u1EBFn b\u1ED1n
     th\u1EBB b\xE0i; 2. Gi\u1EDBi h\u1EA1n tr\u1EEF b\xE0i l\u01B0\u1EE3t hi\u1EC7n
     t\u1EA1i -2."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/zhanggong01/ZhangGong_QianXin_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/zhanggong01/ZhangGong_QianXin_02.mp3

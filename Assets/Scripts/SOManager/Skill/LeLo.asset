@@ -21,4 +21,6 @@ MonoBehaviour:
     l\u1EDBn h\u01A1n s\u1ED1 b\xE0i b\u1EA1n giao ra m\u1ED9t l\u1EA7n tr\u01B0\u1EDBc
     \u0111\xF3 b\u1EB1ng c\xE1ch n\xE0y, b\u1EA1n t\u0103ng 1 gi\u1EDBi h\u1EA1n
     sinh l\u1EF1c v\xE0 h\u1ED3i ph\u1EE5c 1 sinh l\u1EF1c."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/caosong01/CaoSong_LiLu_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/caosong01/CaoSong_LiLu_02.mp3

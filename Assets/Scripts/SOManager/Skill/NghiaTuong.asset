@@ -18,4 +18,6 @@ MonoBehaviour:
     s\u1EED d\u1EE5ng g\xE2y s\xE1t th\u01B0\u01A1ng -1 \u0111\u1ED1i v\u1EDBi b\u1EA1n;
     Th\u1EBB b\xE0i th\u1EE9 2 h\u1ECD s\u1EED d\u1EE5ng l\xE0 s\u1EAFc \u0111en,
     v\xF4 hi\u1EC7u \u0111\u1ED1i v\u1EDBi b\u1EA1n."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/taoqian01/TaoQian_YiXiang_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/taoqian01/TaoQian_YiXiang_02.mp3

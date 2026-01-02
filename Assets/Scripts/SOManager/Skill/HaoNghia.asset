@@ -18,4 +18,6 @@ MonoBehaviour:
     ra s\xE1t th\u01B0\u01A1ng m\xE0 ti\u1EBFn v\xE0o ch\u1ED3ng b\xE0i b\u1ECF trong
     l\u01B0\u1EE3t hi\u1EC7n t\u1EA1i, \u0111\u1ED3ng th\u1EDDi c\xF3 th\u1EC3 ph\xE2n
     ph\u1ED1i cho t\xF9y \xFD ng\u01B0\u1EDDi ch\u01A1i kh\xE1c."
-  urlVoice: 
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/mouzhangxiu01/MouZhangXiu_HaoYi_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/mouzhangxiu01/MouZhangXiu_HaoYi_02.mp3
