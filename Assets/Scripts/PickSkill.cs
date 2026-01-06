@@ -19,10 +19,7 @@ public class PickSkill : MonoBehaviour
     }
     public void AddPlayer(string playerId)
     {
-        players.Add(new PlayerData
-        {
-            playerId = playerId
-        });
+        players.Add(new PlayerData(playerId));
     }
 
     public void AddSkill(string playerId, SkillConfig skill)

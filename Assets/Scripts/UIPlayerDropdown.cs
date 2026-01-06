@@ -1,41 +1,55 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+using System.Collections.Generic;
 using TMPro;
-using UnityEngine;
 
 public class UIPlayerDropdown : MonoBehaviour
 {
+    public static UIPlayerDropdown Instance;
+
     public TMP_Dropdown dropdown;
-    public UISkillListForPlayer skillListUI;
 
-    void Start()
+    private void Awake()
     {
-        Refresh();
-
-        dropdown.onValueChanged.AddListener(OnPlayerChanged);
+        Instance = this;
     }
 
+    private void Start()
+    {
+        Refresh();
+    }
+
+    // =============================
+    // Refresh dropdown từ PickSkill
+    // =============================
     public void Refresh()
     {
         dropdown.ClearOptions();
 
-        var options = PickSkill.Instance.players
-            .ConvertAll(p => p.playerId);
+        List<string> options = new();
+
+        foreach (var player in PickSkill.Instance.players)
+        {
+            options.Add(player.playerId);
+        }
 
         dropdown.AddOptions(options);
 
-        if (PickSkill.Instance.players.Count == 0)
-            return;
-
-        dropdown.value = 0;
-        OnPlayerChanged(0);
+        if (options.Count > 0)
+            dropdown.value = options.Count - 1;
     }
 
-    void OnPlayerChanged(int index)
+    // =============================
+    // Player hiện tại
+    // =============================
+    public string CurrentPlayer
     {
-        if (index < 0 ||
-            index >= PickSkill.Instance.players.Count)
-            return;
+        get
+        {
+            if (dropdown.options.Count == 0)
+                return null;
 
-        var player = PickSkill.Instance.players[index];
-        skillListUI.ShowPlayer(player);
+            return dropdown.options[dropdown.value].text;
+        }
     }
 }

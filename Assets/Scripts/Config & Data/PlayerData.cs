@@ -6,4 +6,9 @@ public class PlayerData
 {
     public string playerId;
     public List<SkillConfig> skills = new(); 
+
+    public PlayerData(string id)
+    {
+        playerId = id;
+    }
 }

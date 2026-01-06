@@ -9,10 +9,17 @@ public class UIAddSkillButton : MonoBehaviour
     {
         Debug.Log("AddSkill BUTTON CLICKED");
 
-        var player = skillListUI.currentPlayer;
+        string playerId = UIPlayerDropdown.Instance.CurrentPlayer;
+        if (string.IsNullOrEmpty(playerId))
+        {
+            Debug.LogWarning("❌ CurrentPlayerId = null");
+            return;
+        }
+
+        var player = PickSkill.Instance.GetPlayer(playerId);
         if (player == null)
         {
-            Debug.LogWarning("❌ CurrentPlayer = null");
+            Debug.LogWarning("❌ PlayerData not found");
             return;
         }
 
@@ -26,7 +33,8 @@ public class UIAddSkillButton : MonoBehaviour
         Debug.Log($"✅ Add skill {skill.skillName} to {player.playerId}");
 
         PickSkill.Instance.AddSkill(player.playerId, skill);
-        skillListUI.Refresh();
+
+        skillListUI.ShowPlayer(player);
     }
 
 

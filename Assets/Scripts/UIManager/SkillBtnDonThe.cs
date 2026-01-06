@@ -8,6 +8,9 @@ public class SkillBtnDonThe : MonoBehaviour
     [Header("Data")]
     public List<SkillConfig> allSkills;
 
+    [Header("UI References")]
+    public UISkillListForPlayer skillListUI;
+
     [Header("UI")]
     public Button buttonDonThe;
     public GameObject skillPanel;
@@ -70,11 +73,22 @@ public class SkillBtnDonThe : MonoBehaviour
     // =============================
     void OnSelectSkill(SkillConfig skill)
     {
-        // phát voice
+        string currentPlayer =
+            UIPlayerDropdown.Instance.CurrentPlayer;
+
+        PlayerSkillService.AddSkill(currentPlayer, skill);
+
         SkillVoicePlayer.Instance.PlayFromSkill(skill);
 
-        // reset UI
+        PlayerData player =
+            PlayerRepository.Instance.Get(currentPlayer);
+
+        // ✅ KHÔNG DÙNG Instance
+        skillListUI.ShowPlayer(player);
+
         skillPanel.SetActive(false);
         buttonDonThe.gameObject.SetActive(true);
     }
+
+
 }
