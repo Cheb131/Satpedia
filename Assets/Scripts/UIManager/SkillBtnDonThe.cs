@@ -73,18 +73,14 @@ public class SkillBtnDonThe : MonoBehaviour
     // =============================
     void OnSelectSkill(SkillConfig skill)
     {
-        string currentPlayer =
-            UIPlayerDropdown.Instance.CurrentPlayer;
+        string playerId = UIPlayerDropdown.Instance.CurrentPlayer;
+        if (string.IsNullOrEmpty(playerId)) return;
 
-        PlayerSkillService.AddSkill(currentPlayer, skill);
-
+        PickSkill.Instance.AddSkill(playerId, skill);
         SkillVoicePlayer.Instance.PlayFromSkill(skill);
 
-        PlayerData player =
-            PlayerRepository.Instance.Get(currentPlayer);
-
-        // ✅ KHÔNG DÙNG Instance
-        skillListUI.ShowPlayer(player);
+        var player = PickSkill.Instance.GetPlayer(playerId);
+        UISkillListForPlayer.Instance.ShowPlayer(player);
 
         skillPanel.SetActive(false);
         buttonDonThe.gameObject.SetActive(true);
