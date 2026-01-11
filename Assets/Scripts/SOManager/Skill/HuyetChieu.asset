@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: HuyetChieu
+  m_EditorClassIdentifier: 
+  skillName: "Huy\u1EBFt Chi\u1EBFu"
+  skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng gi\u1EDBi h\u1EA1n
+    m\u1ED9t l\u1EA7n, b\u1EA1n c\xF3 th\u1EC3 b\u1ECF \u0111i m\u1ED9t l\xE1 b\xE0i
+    tr\xEAn tay v\xE0 l\u1EF1a ch\u1ECDn t\u1ED1i \u0111a X ng\u01B0\u1EDDi ch\u01A1i
+    kh\xE1c (X l\xE0 gi\u1EDBi h\u1EA1n sinh l\u1EF1c c\u1EE7a b\u1EA1n). Nh\u1EEFng
+    ng\u01B0\u1EDDi n\xE0y l\u1EA7n l\u01B0\u1EE3t l\u1EF1a ch\u1ECDn c\xF3 giao
+    cho b\u1EA1n m\u1ED9t l\xE1 b\xE0i hay kh\xF4ng: N\u1EBFu ch\u1ECDn c\xF3, ng\u01B0\u1EDDi
+    n\xE0y r\xFAt m\u1ED9t l\xE1 b\xE0i v\xE0 l\u01B0\u1EE3t hi\u1EC7n t\u1EA1i b\u1EA1n
+    c\xF3 th\u1EC3 s\u1EED d\u1EE5ng th\xEAm m\u1ED9t l\xE1 [S\xE1t]; N\u1EBFu ch\u1ECDn
+    kh\xF4ng, l\u01B0\u1EE3t hi\u1EC7n t\u1EA1i ng\u01B0\u1EDDi n\xE0y kh\xF4ng th\u1EC3
+    h\u01B0\u1EDFng \u1EE9ng b\xE0i b\u1EA1n s\u1EED d\u1EE5ng. N\u1EBFu kh\xF4ng
+    c\xF3 ng\u01B0\u1EDDi ch\u01A1i n\xE0o giao b\xE0i cho b\u1EA1n, b\u1EA1n r\xFAt
+    b\xE0i \u0111\u1EBFn b\u1EB1ng gi\u1EDBi h\u1EA1n sinh l\u1EF1c."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/dongcheng01/DongCheng_XueZhao_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/dongcheng01/DongCheng_XueZhao_02.mp3

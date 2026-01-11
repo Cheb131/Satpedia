@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: TramHuy_Gioi
+  m_EditorClassIdentifier: 
+  skillName: "Tr\u1EA5m H\u1EE7y"
+  skillDescription: "Khi b\u1EA1n s\u1EED d\u1EE5ng [S\xE1t] ho\u1EB7c b\xE0i C\u1EA9m
+    Nang th\u01B0\u1EDDng ch\u1EC9 \u0111\u1ECBnh m\u1EE5c ti\xEAu duy nh\u1EA5t,
+    b\u1EA1n c\xF3 th\u1EC3 l\u1EC7nh m\u1ED9t trong nh\u1EEFng ng\u01B0\u1EDDi c\xF2n
+    l\u1EA1i l\u1EF1a ch\u1ECDn m\u1ED9t h\u1EA1ng m\u1EE5c: Giao cho b\u1EA1n m\u1ED9t
+    l\xE1 b\xE0i v\xE0 tr\u1EDF th\xE0nh ng\u01B0\u1EDDi s\u1EED d\u1EE5ng c\u1EE7a
+    b\xE0i n\xE0y; Tr\u1EDF th\xE0nh m\u1ED9t m\u1EE5c ti\xEAu n\u1EEFa c\u1EE7a
+    b\xE0i n\xE0y (sau \u0111\xF3 k\u1EF9 n\u0103ng n\xE0y v\xF4 hi\u1EC7u trong
+    l\u01B0\u1EE3t hi\u1EC7n t\u1EA1i)."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/sunluban01/SunLuBan_ZenHui_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/sunluban01/SunLuBan_ZenHui_02.mp3

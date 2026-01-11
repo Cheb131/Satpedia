@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class SkillBtnDonThe : MonoBehaviour
+public class SkillBtnRoll1Pick1 : MonoBehaviour
 {
     [Header("Data")]
     public List<SkillConfig> allSkills;
@@ -12,7 +12,7 @@ public class SkillBtnDonThe : MonoBehaviour
     public UISkillListForPlayer skillListUI;
 
     [Header("UI")]
-    public Button buttonDonThe;
+    public Button buttonRoll;
     public GameObject uiStatic;
     public GameObject skillPanel;
     public Button[] skillButtons; // size = 3
@@ -23,13 +23,13 @@ public class SkillBtnDonThe : MonoBehaviour
     {
         skillPanel.SetActive(false);
 
-        buttonDonThe.onClick.AddListener(OnClickDonThe);
+        buttonRoll.onClick.AddListener(OnClick);
     }
 
     // =============================
-    // Khi nhấn nút Độn Thế
+    // Khi nhấn nút 
     // =============================
-    void OnClickDonThe()
+    void OnClick()
     {
         RollSkill();
 
@@ -44,30 +44,35 @@ public class SkillBtnDonThe : MonoBehaviour
     {
         rolledSkills.Clear();
 
-        List<SkillConfig> temp = new(allSkills);
-
-        for (int i = 0; i < 3; i++)
+        if (allSkills == null || allSkills.Count == 0)
         {
-            int rand = Random.Range(0, temp.Count);
-            rolledSkills.Add(temp[rand]);
-            temp.RemoveAt(rand);
+            Debug.LogWarning("❌ allSkills rỗng");
+            return;
         }
 
-        for (int i = 0; i < 3; i++)
+        // 1️⃣ random 1 skill
+        int rand = Random.Range(0, allSkills.Count);
+        SkillConfig skill = allSkills[rand];
+        rolledSkills.Add(skill);
+
+        // 2️⃣ chỉ dùng button đầu tiên
+        Button btn = skillButtons[0];
+
+        btn.GetComponentInChildren<TMP_Text>().text = skill.skillName;
+
+        btn.onClick.RemoveAllListeners();
+        btn.onClick.AddListener(() =>
         {
-            SkillConfig skill = rolledSkills[i];
+            OnSelectSkill(skill);
+        });
 
-            skillButtons[i]
-                .GetComponentInChildren<TMP_Text>()
-                .text = skill.skillName;
-
-            skillButtons[i].onClick.RemoveAllListeners();
-            skillButtons[i].onClick.AddListener(() =>
-            {
-                OnSelectSkill(skill);
-            });
+        // 3️⃣ ẩn các button còn lại (nếu có)
+        for (int i = 1; i < skillButtons.Length; i++)
+        {
+            skillButtons[i].gameObject.SetActive(false);
         }
     }
+
 
     // =============================
     // Khi chọn 1 skill

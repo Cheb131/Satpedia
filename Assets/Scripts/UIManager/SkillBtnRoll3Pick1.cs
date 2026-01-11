@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class SkillBtnBacLam : MonoBehaviour
+public class SkillBtnRoll3Pick1 : MonoBehaviour
 {
     [Header("Data")]
     public List<SkillConfig> allSkills;
@@ -12,7 +12,7 @@ public class SkillBtnBacLam : MonoBehaviour
     public UISkillListForPlayer skillListUI;
 
     [Header("UI")]
-    public Button buttonBacLam;
+    public Button buttonRoll;
     public GameObject uiStatic;
     public GameObject skillPanel;
     public Button[] skillButtons; // size = 3
@@ -23,15 +23,16 @@ public class SkillBtnBacLam : MonoBehaviour
     {
         skillPanel.SetActive(false);
 
-        buttonBacLam.onClick.AddListener(OnClickBacLam);
+        buttonRoll.onClick.AddListener(OnClick);
     }
 
     // =============================
-    // Khi nhấn nút Bác Lãm
+    // Khi nhấn nút 
     // =============================
-    void OnClickBacLam()
+    void OnClick()
     {
         RollSkill();
+
         uiStatic.SetActive(false);
         skillPanel.SetActive(true);
     }

@@ -5,7 +5,8 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
-    public SkillBtnDonThe SkillBtnDonThe;
+
+
 
     private void Awake()
     {

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: TuuTri
+  m_EditorClassIdentifier: 
+  skillName: "T\u1EEDu Tr\xEC"
+  skillDescription: "B\u1EA1n c\xF3 th\u1EC3 \u0111em m\u1ED9t l\xE1 ch\u1EA5t \u2660
+    tr\xEAn tay s\u1EED d\u1EE5ng nh\u01B0 [T\u1EEDu]."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/dongzhuo01/DongZhuo_JiuChi_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/dongzhuo01/DongZhuo_JiuChi_02.mp3
