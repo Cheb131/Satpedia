@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: NhaanDduwsc
+  m_EditorClassIdentifier: 
+  skillName: "Nh\xE2n \u0110\u1EE9c"
+  skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng b\u1EA1n c\xF3 th\u1EC3
+    \u0111em t\xF9y \xFD l\u01B0\u1EE3ng b\xE0i tr\xEAn tay giao cho ng\u01B0\u1EDDi
+    m\u1ED9t ch\u01A1i kh\xE1ci. Khi b\u1EA1n giao \u0111\u1EBFn th\u1EBB th\u1EE9
+    hai, b\u1EA1n h\u1ED3i 1 sinh l\u1EF1c."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/1-spell/spell31_1.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/1-spell/spell31_2.mp3

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: CaarmHooji
+  m_EditorClassIdentifier: 
+  skillName: "C\u1EA9m H\u1ED9i"
+  skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng gi\u1EDBi h\u1EA1n
+    m\u1ED9t l\u1EA7n, b\u1EA1n c\xF3 th\u1EC3 l\u1EA5y ra t\u1EEB ch\u1ED3ng b\xE0i
+    r\xFAt ng\u1EABu nhi\xEAn ba l\xE1 b\xE0i lo\u1EA1i kh\xF4ng g\xE2y s\xE1t th\u01B0\u01A1ng
+    (kh\xF4ng c\xF9ng t\xEAn c\u0169ng nh\u01B0 ch\u1EC9 ch\u1EC9 \u0111\u1ECBnh
+    m\u1ED9t m\u1EE5c ti\xEAu duy nh\u1EA5t), sau \u0111\xF3 l\u1EF1a ch\u1ECDn m\u1ED9t
+    ng\u01B0\u1EDDi ch\u01A1i kh\xE1c, ng\u01B0\u1EDDi n\xE0y l\u1EF1a ch\u1ECDn
+    v\xE0 s\u1EED d\u1EE5ng m\u1ED9t l\xE1 trong \u0111\xF3, sau \u0111\xF3 b\u1EA1n
+    c\xF3 th\u1EC3 l\u1EA7n l\u01B0\u1EE3t s\u1EED d\u1EE5ng hai l\xE1 c\xF2n d\u01B0
+    (b\xE0i kh\xF4ng th\u1EC3 l\u1EF1a ch\u1ECDn b\u1EA3n th\xE2n tr\u1EDF th\xE0nh
+    m\u1EE5c ti\xEAu th\xEC c\u1EA7n ph\u1EA3i l\u1EF1a ch\u1ECDn \u0111\u1ED1i ph\u01B0\u01A1ng
+    tr\u1EDF th\xE0nh m\u1EE5c ti\xEAu, kh\xF4ng h\u1EA1n ch\u1EBF c\u1EF1 ly v\xE0
+    s\u1ED1 l\u1EA7n). B\u1ECF \u0111i b\xE0i cu\u1ED1i c\xF9ng kh\xF4ng th\u1EC3
+    s\u1EED d\u1EE5ng \u0111\u01B0\u1EE3c."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/zhaoyan01/ZhaoYan_JinHui_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/zhaoyan01/ZhaoYan_JinHui_02.mp3

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: LieenHoafn
+  m_EditorClassIdentifier: 
+  skillName: "Li\xEAn Ho\xE0n"
+  skillDescription: "B\u1EA1n c\xF3 th\u1EC3 \u0111em m\u1ED9t l\xE1 ch\u1EA5t \u2663
+    tr\xEAn tay xem nh\u01B0 [Thi\u1EBFt T\xE1c Li\xEAn Ho\xE0n] \u0111\u1EC3 s\u1EED
+    d\u1EE5ng ho\u1EB7c tr\u1ECDng ch\xFA (\u0111\u1ED5i b\xE0i)."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/pangtong01/PangTong_LianHuan_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/pangtong01/PangTong_LianHuan_02.mp3
