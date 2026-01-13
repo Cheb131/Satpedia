@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: LaajpMujc
+  m_EditorClassIdentifier: 
+  skillName: "L\u1EADp M\u1EE5c"
+  skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng, b\u1EA1n c\xF3 th\u1EC3
+    \u0111em m\u1ED9t l\xE1 ch\u1EA5t \u2666 s\u1EED d\u1EE5ng nh\u01B0 [L\u1EA1c
+    B\u1EA5t T\u01B0 Th\u1EE5c] \u0111\u1ED1i v\u1EDBi b\u1EA3n th\xE2n, sau \u0111\xF3
+    h\u1ED3i ph\u1EE5c 1 \u0111i\u1EC3m sinh l\u1EF1c; Khi khu ph\xE1t x\xE9t c\u1EE7a
+    b\u1EA1n c\xF3 b\xE0i, b\u1EA1n s\u1EED d\u1EE5ng b\xE0i \u0111\u1ED1i v\u1EDBi
+    ng\u01B0\u1EDDi ch\u01A1i kh\xE1c n\u1EB1m trong ph\u1EA1m vi c\xF4ng k\xEDch
+    kh\xF4ng h\u1EA1n ch\u1EBF s\u1ED1 l\u1EA7n v\xE0 c\u1EF1 ly."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/1-spell/spell802_1.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/1-spell/spell802_2.mp3
