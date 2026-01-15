@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: TrieefuPhuonwjg
+  m_EditorClassIdentifier: 
+  skillName: "Tri\u1EC1u Ph\u01B0\u1EE3ng"
+  skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng gi\u1EDBi h\u1EA1n
+    m\u1ED9t l\u1EA7n, khi b\u1EA1n g\xE2y ra s\xE1t th\u01B0\u01A1ng, b\u1EA1n c\xF3
+    th\u1EC3 b\u1ECF \u0111i m\u1ED9t l\xE1 b\xE0i tr\xEAn tay, sau \u0111\xF3 r\xFAt
+    m\u1ED9t l\xE1 b\xE0i. N\u1EBFu b\xE0i b\u1ECF \u0111i: C\xF9ng m\xE0u v\u1EDBi
+    b\xE0i g\xE2y ra s\xE1t th\u01B0\u01A1ng, th\xEC r\xFAt th\xEAm m\u1ED9t l\xE1
+    b\xE0i; C\xF9ng lo\u1EA1i v\u1EDBi b\xE0i g\xE2y ra s\xE1t th\u01B0\u01A1ng,
+    th\xEC s\xE1t th\u01B0\u01A1ng n\xE0y +1."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/tongyuan01/TongYuan_ChaoFeng_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/tongyuan01/TongYuan_ChaoFeng_02.mp3

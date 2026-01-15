@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: DdoajnLuonwg
+  m_EditorClassIdentifier: 
+  skillName: "\u0110o\u1EA1n L\u01B0\u01A1ng"
+  skillDescription: "B\u1EA1n c\xF3 th\u1EC3 \u0111em m\u1ED9t l\xE1 b\xE0i C\u01A1
+    B\u1EA3n m\xE0u \u0110en ho\u1EB7c Trang B\u1ECB m\xE0u \u0110en s\u1EED d\u1EE5ng
+    nh\u01B0 [Binh L\u01B0\u01A1ng Th\u1ED1n \u0110o\u1EA1n]; B\u1EA1n s\u1EED d\u1EE5ng
+    [Binh L\u01B0\u01A1ng Th\u1ED1n \u0110o\u1EA1n] \u0111\u1ED1i v\u1EDBi ng\u01B0\u1EDDi
+    ch\u01A1i c\xF3 s\u1ED1 b\xE0i tr\xEAn tay l\u1EDBn h\u01A1n ho\u1EB7c b\u1EB1ng
+    b\u1EA1n kh\xF4ng h\u1EA1n ch\u1EBF c\u1EF1 ly."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/xuhuang01/XuHuang_DuanLiang_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/xuhuang01/XuHuang_DuanLiang_02.mp3

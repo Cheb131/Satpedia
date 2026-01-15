@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: HoofMij
+  m_EditorClassIdentifier: 
+  skillName: "H\u1ED3 M\u1ECB"
+  skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng gi\u1EDBi h\u1EA1n
+    m\u1ED9t l\u1EA7n m\u1ED7i h\u1EA1ng m\u1EE5c, b\u1EA1n c\xF3 th\u1EC3 l\u1EC7nh
+    m\u1ED9t ng\u01B0\u1EDDi ch\u01A1i c\xF3 s\u1ED1 sinh l\u1EF1c t\u1ED1i \u0111a
+    l\xE0 X (X l\xE0 s\u1ED1 s\xE1t th\u01B0\u01A1ng b\u1EA1n g\xE2y ra trong giai
+    \u0111o\u1EA1n hi\u1EC7n t\u1EA1i): R\xFAt m\u1ED9t l\xE1 b\xE0i; Giao cho b\u1EA1n
+    m\u1ED9t l\xE1 b\xE0i; H\u1ED3i ph\u1EE5c 1 \u0111i\u1EC3m sinh l\u1EF1c."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/dongxie03/DongXie_HuMei_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/dongxie03/DongXie_HuMei_02.mp3
