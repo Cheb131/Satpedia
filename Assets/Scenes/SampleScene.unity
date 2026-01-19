@@ -6233,6 +6233,26 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c3786772d607e6c42a6bff7d782271c8, type: 2}
   - {fileID: 11400000, guid: d050c0dceeceb8543a2bc48964dc0dc8, type: 2}
   - {fileID: 11400000, guid: 6eeb460a72406c5408ec62882feabac2, type: 2}
+  - {fileID: 11400000, guid: 1150dab12b7f91b4bbd593f856c6ad44, type: 2}
+  - {fileID: 11400000, guid: 61d4ed20c97ab4a42910db478aa84218, type: 2}
+  - {fileID: 11400000, guid: 5eded66d3a08ae34aa30322415429a14, type: 2}
+  - {fileID: 11400000, guid: f106190664cc82f47b1aea9a20588dcd, type: 2}
+  - {fileID: 11400000, guid: 80f39efe4ce40e840851bef68f2e6829, type: 2}
+  - {fileID: 11400000, guid: 178a03b4b01f4d748aad742861553277, type: 2}
+  - {fileID: 11400000, guid: 45f00b6063325da4b9f9d58768679f15, type: 2}
+  - {fileID: 11400000, guid: 72734762622e5bf4eb4ddfd6078b806f, type: 2}
+  - {fileID: 11400000, guid: 58702e7174bb8f84595c62e5039ccfa3, type: 2}
+  - {fileID: 11400000, guid: ccf19ce5184b1ff4aa5bb678f3494772, type: 2}
+  - {fileID: 11400000, guid: e71cf37d0977faf48a39cffa0747071d, type: 2}
+  - {fileID: 11400000, guid: 8fbd79e78cc38034d8c6bca89d52fd29, type: 2}
+  - {fileID: 11400000, guid: 87b130673ef14674ca0b27cf9d4939e1, type: 2}
+  - {fileID: 11400000, guid: b51a20fdd45ef124d9e820eac6fb9f79, type: 2}
+  - {fileID: 11400000, guid: 59ef096641bb11e4f81c57387a668676, type: 2}
+  - {fileID: 11400000, guid: c41b7ef2bfc4e7f478850cfc48c75bf0, type: 2}
+  - {fileID: 11400000, guid: db2d7b880a2766b4b927638997fe5a9f, type: 2}
+  - {fileID: 11400000, guid: dbd500e16531dd94d930d14628a0fce7, type: 2}
+  - {fileID: 11400000, guid: da2c0373e6f7a0b429d4241931c589b8, type: 2}
+  - {fileID: 11400000, guid: af1b7dd6c93b25c42891c5f3ebdbae25, type: 2}
   skillListUI: {fileID: 221817644}
   buttonRoll: {fileID: 1749437940}
   uiStatic: {fileID: 1674011059}

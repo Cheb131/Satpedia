@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: LuwjTaam
+  m_EditorClassIdentifier: 
+  skillName: "L\u1EF1 T\xE2m"
+  skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng gi\u1EDBi h\u1EA1n
+    m\u1ED9t l\u1EA7n, b\u1EA1n c\xF3 th\u1EC3 giao cho m\u1ED9t ng\u01B0\u1EDDi
+    ch\u01A1i kh\xE1c m\u1ED9t l\xE1 b\xE0i tr\xEAn tay, sau \u0111\xF3 b\u1EA1n
+    l\u1EF1a ch\u1ECDn m\u1ED9t h\u1EA1ng m\u1EE5c: L\u1EC7nh h\u1ECD r\xFAt X l\xE1
+    b\xE0i; L\u1EC7nh h\u1ECD b\u1ECF \u0111i ng\u1EABu nhi\xEAn X l\xE1 b\xE0i tr\xEAn
+    tay. (X l\xE0 s\u1ED1 v\xF2ng ch\u01A1i c\u1EE7a tr\xF2 ch\u01A1i v\xE0 t\u1ED1i
+    \u0111a l\xE0 5). Sau \u0111\xF3 n\u1EBFu h\u1ECD: R\xFAt b\xE0i c\xF3 b\xE0i
+    c\xF9ng t\xEAn v\u1EDBi b\xE0i b\u1EA1n giao cho h\u1ECD, khi ng\u01B0\u1EDDi
+    n\xE0y ph\xE1t \u0111\u1ED9ng k\u1EF9 n\u0103ng l\u1EA7n ti\u1EBFp theo, h\u1ED3i
+    ph\u1EE5c 1 \u0111i\u1EC3m sinh l\u1EF1c; B\u1ECF \u0111i b\xE0i c\xF3 b\xE0i
+    c\xF9ng t\xEAn v\u1EDBi b\xE0i b\u1EA1n giao cho h\u1ECD, khi ng\u01B0\u1EDDi
+    n\xE0y ph\xE1t \u0111\u1ED9ng k\u1EF9 n\u0103ng l\u1EA7n ti\u1EBFp theo, t\u1EF1
+    m\u1EA5t 1 \u0111i\u1EC3m sinh l\u1EF1c."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/shenhuatuo01/ShenHuaTuo_LvXin_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/shenhuatuo01/ShenHuaTuo_LvXin_02.mp3
