@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: VoxDuyeen
+  m_EditorClassIdentifier: 
+  skillName: "V\xF5 Duy\xEAn"
+  skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng gi\u1EDBi h\u1EA1n
+    m\u1ED9t l\u1EA7n, b\u1EA1n c\xF3 th\u1EC3 \u0111em m\u1ED9t l\xE1 [S\xE1t] giao
+    cho m\u1ED9t ng\u01B0\u1EDDi ch\u01A1i kh\xE1c, sau \u0111\xF3 b\u1EA1n h\u1ED3i
+    ph\u1EE5c 1 \u0111i\u1EC3m sinh l\u1EF1c v\xE0 c\xF9ng v\u1EDBi h\u1ECD m\u1ED7i
+    ng\u01B0\u1EDDi r\xFAt m\u1ED9t l\xE1 b\xE0i; n\u1EBFu [S\xE1t] n\xE0y l\xE0:\r\n\r\nM\xE0u
+    \u0110\u1ECF, h\u1ECD h\u1ED3i ph\u1EE5c 1 \u0111i\u1EC3m sinh l\u1EF1c.\r\n[S\xE1t]
+    c\xF3 thu\u1ED9c t\xEDnh, h\u1ECD r\xFAt th\xEAm m\u1ED9t l\xE1 b\xE0i."
+  urlVoice:
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/hujinding01/HuJinDing_WuYuan_01.mp3
+  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/hujinding01/HuJinDing_WuYuan_02.mp3
