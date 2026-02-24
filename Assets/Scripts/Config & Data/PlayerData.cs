@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerData
 {
     public string playerId;
-    public List<SkillConfig> skills = new(); 
+    public List<SkillConfig> skills = new();
+    public List<CardConfig> cards = new();
 
     public PlayerData(string id)
     {

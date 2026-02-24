@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 955124204b9e48247a5a524d2faf4de1, type: 3}
-  m_Name: Sat
+  m_Name: SatLoi
   m_EditorClassIdentifier: 
-  cardName: "S\xE1t"
-  cardImage: {fileID: 21300000, guid: ef3443fcb9530e34180b1c00e24e0fe8, type: 3}
+  cardName: "S\xE1t L\xF4i"
+  cardImage: {fileID: 21300000, guid: fc1f726d2545ce24f8074aaa79aee16f, type: 3}
   cardDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng, b\u1EA1n s\u1EED
     d\u1EE5ng l\xE1 b\xE0i n\xE0y l\xEAn 1 ng\u01B0\u1EDDi ch\u01A1i kh\xE1c n\u1EB1m
     trong ph\u1EA1m vi c\xF4ng k\xEDch, m\u1EE5c ti\xEAu c\xF3 th\u1EC3 s\u1EED d\u1EE5ng
     m\u1ED9t l\xE1 [Thi\u1EC3m] \u0111\u1EC3 tri\u1EC7t ti\xEAu l\xE1 [S\xE1t] n\xE0y,
     n\u1EBFu h\u1ECD kh\xF4ng l\xE0m v\u1EADy, h\u1ECD nh\u1EADn m\u1ED9t \u0111i\u1EC3m
-    s\xE1t th\u01B0\u01A1ng t\u1EEB b\u1EA1n."
+    s\xE1t th\u01B0\u01A1ng thu\u1ED9c t\xEDnh L\xF4i t\u1EEB b\u1EA1n."

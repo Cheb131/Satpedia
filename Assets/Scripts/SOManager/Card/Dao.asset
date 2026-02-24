@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 955124204b9e48247a5a524d2faf4de1, type: 3}
+  m_Name: Dao
+  m_EditorClassIdentifier: 
+  cardName: "\u0110\xE0o"
+  cardImage: {fileID: 21300000, guid: f1fb9a44c42947d48a2d31c3be03b098, type: 3}
+  cardDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng, n\u1EBFu b\u1EA1n
+    \u0111ang kh\xF4ng \u0111\u1EA7y sinh l\u1EF1c, b\u1EA1n c\xF3 th\u1EC3 s\u1EED
+    d\u1EE5ng l\xE1 b\xE0i n\xE0y l\xEAn b\u1EA3n th\xE2n, b\u1EA1n h\u1ED3i ph\u1EE5c
+    1 \u0111i\u1EC3m sinh l\u1EF1c.\r\nKhi b\u1EA1n ho\u1EB7c m\u1ED9t ng\u01B0\u1EDDi
+    ch\u01A1i kh\xE1c \u0111ang trong tr\u1EA1ng th\xE1i h\u1EA5p h\u1ED1i, b\u1EA1n
+    c\xF3 th\u1EC3 s\u1EED d\u1EE5ng l\xE1 b\xE0i n\xE0y l\xEAn h\u1ECD, l\u1EC7nh
+    h\u1ECD h\u1ED3i ph\u1EE5c 1 \u0111i\u1EC3m sinh l\u1EF1c"
