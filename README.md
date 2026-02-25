@@ -1,3 +1,2 @@
-Đây là project cá nhân làm ra để học tập về Unity và tra cứu, mô phổng về tựa game Tam Quốc Sát, không sử dụng vì mục đích thương mại. Mọi thông tin về kĩ năng, tướng, bài đánh được lấy từ trang [ Tamquocsat wiki](https://tam-quoc-sat.fandom.com/).
-Project này được phát triển bởi: Cheb131, liên hệ: nguyengiatrieuvy@gmail.com. Link tải sẽ được đăng lên sớm nhất có thể.
+Link tải [Google drive](https://drive.google.com/file/d/1h1SiGKf8uzo6Xk9PnuHQSMUf1dsb_oRP/view?fbclid=IwY2xjawQLVTdleHRuA2FlbQIxMABicmlkETJGWlh4NjZIODB3cUd0VHN6c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHuKG_KlIEVdJyZLc237aRvOioNjiVOh3j5wwFlrP7J5kQTRmmPLCt6P9LqKR_aem_mDpBpmy2FwR7VEPDR2w-lQ).
 
