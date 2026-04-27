@@ -80,7 +80,7 @@ public class CardBtnRoll5Pick1 : MonoBehaviour
     }
 
     // =============================
-    // Khi chọn 1 skill
+    // Khi chọn 1 card
     // =============================
     void OnSelectCard(CardConfig card)
     {

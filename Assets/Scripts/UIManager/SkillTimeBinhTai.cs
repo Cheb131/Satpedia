@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-
-public class SkillBtnRoll3Pick1 : MonoBehaviour
+public class SkillTimeBinhTai : MonoBehaviour
 {
     [Header("Data")]
     public List<SkillConfig> allSkills;
@@ -13,15 +13,15 @@ public class SkillBtnRoll3Pick1 : MonoBehaviour
 
     [Header("UI")]
     public Button buttonRoll;
-    public GameObject uiStatic;
+    public GameObject panelPickTimeSkill;
     public GameObject skillPanel;
+    public GameObject uiStatic;
     public Button[] skillButtons; // size = 3
 
-    private List<SkillConfig> rolledSkills = new();
 
+    private List<SkillConfig> rolledSkills = new();
     void Start()
     {
-        skillPanel.SetActive(false);
 
         buttonRoll.onClick.AddListener(OnClick);
     }
@@ -32,7 +32,7 @@ public class SkillBtnRoll3Pick1 : MonoBehaviour
     void OnClick()
     {
         RollSkill();
-        uiStatic.SetActive(false);
+        panelPickTimeSkill.SetActive(false);
         skillPanel.SetActive(true);
     }
 
@@ -106,7 +106,8 @@ public class SkillBtnRoll3Pick1 : MonoBehaviour
         UISkillListForPlayer.Instance.ShowPlayer(player);
 
         skillPanel.SetActive(false);
+        panelPickTimeSkill.SetActive(false);
         uiStatic.SetActive(true);
-    }
 
+    }
 }
