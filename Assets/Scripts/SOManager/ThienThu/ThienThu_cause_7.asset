@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aae12e122bd27c4c96aae70f8296263, type: 3}
+  m_Name: ThienThu_cause_7
+  m_EditorClassIdentifier: 
+  description: "Sau khi b\u1EA1n tr\u1EDF th\xE0nh m\u1EE5c ti\xEAu c\u1EE7a l\xE1
+    S\xE1t"

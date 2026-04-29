@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aae12e122bd27c4c96aae70f8296263, type: 3}
+  m_Name: ThienThu_conse_10
+  m_EditorClassIdentifier: 
+  description: "B\u1EA1n c\xF3 th\u1EC3 r\xFAt b\xE0i \u0111\u1EBFn b\u1EB1ng gi\u1EDBi
+    h\u1EA1n sinh l\u1EF1c (t\u1ED1i \u0111a r\xFAt 5 l\xE1)"
