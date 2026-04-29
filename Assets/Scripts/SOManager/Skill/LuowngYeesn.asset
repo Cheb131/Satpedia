@@ -13,15 +13,11 @@ MonoBehaviour:
   m_Name: LuowngYeesn
   m_EditorClassIdentifier: 
   skillName: "L\u01B0\u01A1ng Y\u1EBFn"
-  skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng gi\u1EDBi h\u1EA1n
-    m\u1ED9t l\u1EA7n, b\u1EA1n c\xF3 th\u1EC3 l\u1EF1a ch\u1ECDn m\u1ED9t ng\u01B0\u1EDDi
-    ch\u01A1i kh\xE1c:\r\n\r\nB\u1EA1n r\xFAt t\u1ED1i \u0111a hai l\xE1 b\xE0i,
-    ng\u01B0\u1EDDi n\xE0y b\u1ECF c\xF9ng l\u01B0\u1EE3ng b\xE0i.\r\nB\u1EA1n b\u1ECF
-    t\u1ED1i \u0111a hai l\xE1 b\xE0i, ng\u01B0\u1EDDi n\xE0y r\xFAt c\xF9ng l\u01B0\u1EE3ng
-    b\xE0i.\r\nSau \u0111\xF3 n\u1EBFu s\u1ED1 b\xE0i tr\xEAn tay b\u1EA1n v\xE0
-    h\u1ECD gi\u1ED1ng nhau, ng\u01B0\u1EDDi ch\u01A1i r\xFAt b\xE0i b\u1EB1ng ph\u01B0\u01A1ng
-    ph\xE1p n\xE0y b\u1ECF qua m\u1ED9t giai \u0111o\u1EA1n b\u1ECF b\xE0i ti\u1EBFp
-    theo c\u1EE7a h\u1ECD."
-  urlVoice:
-  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/xingzhangchunhua01/XingZhangChunHua_LiangYan_01.mp3
-  - https://web.sanguosha.com/10/pc/res/assets/runtime/voice/skin/xingzhangchunhua01/XingZhangChunHua_LiangYan_02.mp3
+  skillDescription: "M\u1ED9t l\u1EA7n trong giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng
+    b\u1EA1n c\xF3 th\u1EC3 ch\u1ECDn m\u1ED9t ng\u01B0\u1EDDi ch\u01A1i kh\xE1c
+    sau \u0111\xF3 b\u1EA1n r\xFAt ho\u1EB7c b\u1ECF t\u1ED1i \u0111a hai l\xE1 b\xE0i
+    v\xE0 l\u1EC7nh ng\u01B0\u1EDDi ch\u01A1i \u0111\xF3 c\u0169ng r\xFAt ho\u1EB7c
+    b\u1ECF s\u1ED1 b\xE0i t\u01B0\u01A1ng \u1EE9ng. N\u1EBFu b\u1EA1n v\xE0 nh\xE2n
+    v\u1EADt \u0111\xF3 c\xF3 c\xF9ng s\u1ED1 b\xE0i, nh\xE2n v\u1EADt r\xFAt b\xE0i
+    s\u1EBD b\u1ECF qua l\u01B0\u1EE3t b\u1ECF b\xE0i ti\u1EBFp theo."
+  urlVoice: []

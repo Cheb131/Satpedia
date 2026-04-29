@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: AanOasn_Gioi
+  m_EditorClassIdentifier: 
+  skillName: "\xC2n O\xE1n"
+  skillDescription: "Sau khi b\u1EA1n thu \u0111\u01B0\u1EE3c \xEDt nh\u1EA5t hai
+    l\xE1 b\xE0i c\xF9ng l\xFAc t\u1EEB m\u1ED9t ng\u01B0\u1EDDi ch\u01A1i kh\xE1c,
+    b\u1EA1n c\xF3 th\u1EC3 l\u1EC7nh h\u1ECD r\xFAt m\u1ED9t l\xE1 b\xE0i.\r\nSau
+    khi b\u1EA1n nh\u1EADn 1 \u0111i\u1EC3m s\xE1t th\u01B0\u01A1ng, tr\u1EEB khi
+    ngu\u1ED3n g\xE2y s\xE1t th\u01B0\u01A1ng giao cho b\u1EA1n m\u1ED9t l\xE1 b\xE0i
+    tr\xEAn tay, n\u1EBFu kh\xF4ng th\xEC h\u1ECD gi\u1EA3m 1 \u0111i\u1EC3m sinh
+    l\u1EF1c. N\u1EBFu b\xE0i h\u1ECD giao cho b\u1EA1n kh\xF4ng ph\u1EA3i ch\u1EA5t
+    \u2665, b\u1EA1n r\xFAt m\u1ED9t l\xE1 b\xE0i."
+  urlVoice: []

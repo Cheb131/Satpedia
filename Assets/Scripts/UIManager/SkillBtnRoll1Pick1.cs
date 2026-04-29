@@ -16,6 +16,7 @@ public class SkillBtnRoll1Pick1 : MonoBehaviour
     public GameObject uiStatic;
     public GameObject skillPanel;
     public Button[] skillButtons; // size = 3
+    public TMP_Text[] skillDescriptions;
 
     private List<SkillConfig> rolledSkills = new();
 
@@ -50,24 +51,47 @@ public class SkillBtnRoll1Pick1 : MonoBehaviour
             return;
         }
 
-        // 1️⃣ random 1 skill
-        int rand = Random.Range(0, allSkills.Count);
-        SkillConfig skill = allSkills[rand];
-        rolledSkills.Add(skill);
+        // 1️⃣ random 3 skill
+        int rollCount = Mathf.Min(1, allSkills.Count);
+
+        for (int i = 0; i < rollCount; i++)
+        {
+            int rand = Random.Range(0, allSkills.Count);
+            SkillConfig skill = allSkills[rand];
+
+            // tránh trùng (optional)
+            if (rolledSkills.Contains(skill))
+            {
+                i--;
+                continue;
+            }
+
+            rolledSkills.Add(skill);
+        }
 
         // 2️⃣ chỉ dùng button đầu tiên
-        Button btn = skillButtons[0];
-
-        btn.GetComponentInChildren<TMP_Text>().text = skill.skillName;
-
-        btn.onClick.RemoveAllListeners();
-        btn.onClick.AddListener(() =>
+        for (int i = 0; i < rolledSkills.Count; i++)
         {
-            OnSelectSkill(skill);
-        });
+            Button btn = skillButtons[i];
+            SkillConfig skill = rolledSkills[i];
+
+            btn.gameObject.SetActive(true);
+            btn.GetComponentInChildren<TMP_Text>().text = skill.skillName;
+
+            if (skillDescriptions != null && i < skillDescriptions.Length)
+            {
+                skillDescriptions[i].text = skill.skillDescription;
+            }
+
+            btn.onClick.RemoveAllListeners();
+            btn.onClick.AddListener(() =>
+            {
+                OnSelectSkill(skill);
+            });
+        }
 
         // 3️⃣ ẩn các button còn lại (nếu có)
-        for (int i = 1; i < skillButtons.Length; i++)
+        for (int i = rolledSkills.Count; i < skillButtons.Length; i++)
         {
             skillButtons[i].gameObject.SetActive(false);
         }

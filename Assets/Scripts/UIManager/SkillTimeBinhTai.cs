@@ -17,6 +17,7 @@ public class SkillTimeBinhTai : MonoBehaviour
     public GameObject skillPanel;
     public GameObject uiStatic;
     public Button[] skillButtons; // size = 3
+    public TMP_Text[] skillDescriptions;
 
 
     private List<SkillConfig> rolledSkills = new();
@@ -76,6 +77,11 @@ public class SkillTimeBinhTai : MonoBehaviour
             btn.gameObject.SetActive(true);
             btn.GetComponentInChildren<TMP_Text>().text = skill.skillName;
 
+            if (skillDescriptions != null && i < skillDescriptions.Length)
+            {
+                skillDescriptions[i].text = skill.skillDescription;
+            }
+
             btn.onClick.RemoveAllListeners();
             btn.onClick.AddListener(() =>
             {
@@ -102,12 +108,14 @@ public class SkillTimeBinhTai : MonoBehaviour
         PickSkill.Instance.AddSkill(playerId, skill);
         SkillVoicePlayer.Instance.PlayFromSkill(skill);
 
+        // 👇 remove skill đã chọn khỏi pool
+        allSkills.Remove(skill);
+
         var player = PickSkill.Instance.GetPlayer(playerId);
         UISkillListForPlayer.Instance.ShowPlayer(player);
 
         skillPanel.SetActive(false);
         panelPickTimeSkill.SetActive(false);
         uiStatic.SetActive(true);
-
     }
 }

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: DdafnTaam
+  m_EditorClassIdentifier: 
+  skillName: "\u0110\xE0n T\xE2m"
+  skillDescription: "Sau khi b\u1EA1n nh\u1EADn s\xE1t th\u01B0\u01A1ng, b\u1EA1n
+    c\xF3 th\u1EC3 r\xFAt m\u1ED9t l\xE1 b\xE0i, sau \u0111\xF3 s\u1EEDa \u0111\u1ED5i
+    k\u1EF9 n\u0103ng \u201CKi\u1EC3u Chi\u1EBFu\u201D."
+  urlVoice: []

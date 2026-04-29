@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
-  m_Name: XuChu
+  m_Name: XuChaau
   m_EditorClassIdentifier: 
   skillName: Xu Chu
   skillDescription: "Giai \u0111o\u1EA1n h\xE0nh \u0111\u1ED9ng gi\u1EDBi h\u1EA1n

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: VongKisch
+  m_EditorClassIdentifier: 
+  skillName: "Vong K\xEDch"
+  skillDescription: "Sau khi b\u1EA1n g\xE2y ra 1 \u0111i\u1EC3m s\xE1t th\u01B0\u01A1ng
+    \u0111\u1ED1i v\u1EDBi ng\u01B0\u1EDDi ch\u01A1i kh\xE1c ho\u1EB7c sau khi b\u1EA1n
+    nh\u1EADn 1 \u0111i\u1EC3m s\xE1t th\u01B0\u01A1ng do ng\u01B0\u1EDDi ch\u01A1i
+    kh\xE1c g\xE2y ra, b\u1EA1n c\xF3 th\u1EC3 r\xFAt hai l\xE1 b\xE0i, sau \u0111\xF3
+    giao cho h\u1ECD m\u1ED9t l\xE1 b\xE0i."
+  urlVoice: []

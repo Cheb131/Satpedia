@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: TuuwrThi
+  m_EditorClassIdentifier: 
+  skillName: "T\u1EEDu Thi"
+  skillDescription: "M\u1ED7i khi b\u1EA1n c\u1EA7n s\u1EED d\u1EE5ng [T\u1EEDu],
+    n\u1EBFu m\u1EB7t tr\u01B0\u1EDBc b\xE0i v\xF5 t\u01B0\u1EDBng c\u1EE7a b\u1EA1n
+    \u0111ang h\u01B0\u1EDBng l\xEAn tr\xEAn, b\u1EA1n c\xF3 th\u1EC3 l\u1EADt m\u1EB7t
+    b\xE0i v\xF5 t\u01B0\u1EDBng c\u1EE7a b\u1EA1n, xem nh\u01B0 s\u1EED d\u1EE5ng
+    m\u1ED9t l\xE1 [T\u1EEDu].\r\nN\u1EBFu b\u1EA1n v\xEC nh\u1EADn s\xE1t th\u01B0\u01A1ng
+    m\xE0 ti\xEAu hao sinh l\u1EF1c khi m\u1EB7t sau b\xE0i v\xF5 t\u01B0\u1EDBng
+    c\u1EE7a b\u1EA1n \u0111ang h\u01B0\u1EDBng l\xEAn tr\xEAn, sau khi k\u1EBFt
+    to\xE1n s\xE1t th\u01B0\u01A1ng n\xE0y, b\u1EA1n c\xF3 th\u1EC3 l\u1EADt m\u1EB7t
+    sau sang m\u1EB7t tr\u01B0\u1EDBc."
+  urlVoice: []

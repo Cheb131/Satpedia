@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
-  m_Name: HoarCoong
+  m_Name: QuyTaam
   m_EditorClassIdentifier: 
-  skillName: "H\u1ECFa C\xF4ng"
-  skillDescription: "B\u1EA1n c\xF3 th\u1EC3 \u0111em m\u1ED9t l\xE1 b\xE0i m\xE0u
-    \u0110\u1ECF tr\xEAn tay s\u1EED d\u1EE5ng nh\u01B0 [H\u1ECFa C\xF4ng]."
+  skillName: "Quy T\xE2m"
+  skillDescription: "Sau khi b\u1EA1n nh\u1EADn 1 s\xE1t th\u01B0\u01A1ng, b\u1EA1n
+    c\xF3 th\u1EC3 thu l\u1EA5y ng\u1EABu nhi\xEAn trong v\xF9ng ch\u01A1i m\u1ED7i
+    ng\u01B0\u1EDDi ch\u01A1i kh\xE1c 1 l\xE1 b\xE0i, sau \u0111\xF3 \u0111\u1EB7t
+    ch\u1ED3ng th\u1EBB v\xF5 t\u01B0\u1EDBng.\n"
   urlVoice: []

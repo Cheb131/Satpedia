@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
 
 public class SkillBtnRoll3Pick1 : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class SkillBtnRoll3Pick1 : MonoBehaviour
     public GameObject uiStatic;
     public GameObject skillPanel;
     public Button[] skillButtons; // size = 3
+    public TMP_Text[] skillDescriptions;
 
     private List<SkillConfig> rolledSkills = new();
 
@@ -76,6 +78,11 @@ public class SkillBtnRoll3Pick1 : MonoBehaviour
             btn.gameObject.SetActive(true);
             btn.GetComponentInChildren<TMP_Text>().text = skill.skillName;
 
+            if (skillDescriptions != null && i < skillDescriptions.Length)
+            {
+                skillDescriptions[i].text = skill.skillDescription;
+            }
+
             btn.onClick.RemoveAllListeners();
             btn.onClick.AddListener(() =>
             {
@@ -100,6 +107,7 @@ public class SkillBtnRoll3Pick1 : MonoBehaviour
         if (string.IsNullOrEmpty(playerId)) return;
 
         PickSkill.Instance.AddSkill(playerId, skill);
+
         SkillVoicePlayer.Instance.PlayFromSkill(skill);
 
         var player = PickSkill.Instance.GetPlayer(playerId);

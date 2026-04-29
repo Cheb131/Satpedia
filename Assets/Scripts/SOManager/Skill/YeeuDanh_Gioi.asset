@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: YeeuDanh_Gioi
+  m_EditorClassIdentifier: 
+  skillName: "Y\xEAu Danh"
+  skillDescription: "M\u1ED7i l\u01B0\u1EE3t ch\u01A1i gi\u1EDBi h\u1EA1n m\u1ED9t
+    l\u1EA7n cho m\u1ED7i h\u1EA1ng m\u1EE5c, sau khi b\u1EA1n g\xE2y ra ho\u1EB7c
+    nh\u1EADn s\xE1t th\u01B0\u01A1ng, b\u1EA1n c\xF3 th\u1EC3 l\u1EF1a ch\u1ECDn
+    m\u1ED9t h\u1EA1ng m\u1EE5c:\r\n\r\nB\u1ECF \u0111i m\u1ED9t l\xE1 b\xE0i tr\xEAn
+    tay c\u1EE7a m\u1ED9t ng\u01B0\u1EDDi ch\u01A1i kh\xE1c.\r\nL\u1EC7nh m\u1ED9t
+    ng\u01B0\u1EDDi ch\u01A1i kh\xE1c r\xFAt m\u1ED9t l\xE1 b\xE0i.\r\nL\u1EC7nh
+    ng\u01B0\u1EDDi ch\u01A1i b\u1ECF \u0111i t\u1ED1i \u0111a hai l\xE1 b\xE0i sau
+    \u0111\xF3 r\xFAt c\xF9ng l\u01B0\u1EE3ng b\xE0i."
+  urlVoice: []

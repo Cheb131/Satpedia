@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67388c2137c0ff34e8e9241326a6edd9, type: 3}
+  m_Name: KhoanThisch
+  m_EditorClassIdentifier: 
+  skillName: "Khoan Th\xEDch"
+  skillDescription: "Giai \u0111o\u1EA1n k\u1EBFt th\xFAc, b\u1EA1n c\xF3 th\u1EC3
+    l\u1EF1a ch\u1ECDn m\u1ED9t ng\u01B0\u1EDDi ch\u01A1i kh\xE1c, cho \u0111\u1EBFn
+    khi m\u1EDF \u0111\u1EA7u l\u01B0\u1EE3t ti\u1EBFp theo c\u1EE7a b\u1EA1n, sau
+    khi ng\u01B0\u1EDDi n\xE0y nh\u1EADn \u0111i\u1EC3m s\xE1t th\u01B0\u01A1ng th\u1EE9
+    2 trong c\xF9ng m\u1ED9t l\u01B0\u1EE3t, h\u1ECD h\u1ED3i ph\u1EE5c 1 \u0111i\u1EC3m
+    sinh l\u1EF1c (m\u1ED7i l\u01B0\u1EE3t gi\u1EDBi h\u1EA1n ph\xE1t \u0111\u1ED9ng
+    m\u1ED9t l\u1EA7n)."
+  urlVoice: []
