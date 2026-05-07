@@ -9128,6 +9128,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1306710689}
+--- !u!1 &1317892851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1443600617342126, guid: 11d1185debb1944eab70b071108c6ece, type: 3}
+  m_PrefabInstance: {fileID: 1987444737}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1323607115
 GameObject:
   m_ObjectHideFlags: 0
@@ -11367,7 +11372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1674011060
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13163,11 +13168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonRoll: {fileID: 1912578881}
   uiStatic: {fileID: 1674011059}
-  skillTimePanel: {fileID: 1710338016}
-  skillTimeButtons:
-  - {fileID: 1987842753}
-  - {fileID: 546946165}
-  - {fileID: 1306710689}
+  panelSkill: {fileID: 1710338016}
 --- !u!1 &1938368380 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1443600617342126, guid: 11d1185debb1944eab70b071108c6ece, type: 3}
@@ -13978,7 +13979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1967665817
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14249,7 +14250,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 224622813914279690, guid: 11d1185debb1944eab70b071108c6ece, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1370699581}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1443600617342126, guid: 11d1185debb1944eab70b071108c6ece, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1987444740}
   m_SourcePrefab: {fileID: 100100000, guid: 11d1185debb1944eab70b071108c6ece, type: 3}
 --- !u!224 &1987444738 stripped
 RectTransform:
@@ -14261,6 +14265,21 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224622813914279690, guid: 11d1185debb1944eab70b071108c6ece, type: 3}
   m_PrefabInstance: {fileID: 1987444737}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1987444740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317892851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a569e1e8e7684468594da9f7c433cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonRoll: {fileID: 2049856877}
+  uiStatic: {fileID: 1674011059}
+  panelSkill: {fileID: 1967665816}
 --- !u!1001 &1987842749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14687,6 +14706,17 @@ MonoBehaviour:
   - {fileID: 1865483783}
   - {fileID: 415728868}
   - {fileID: 999340224}
+--- !u!114 &2049856877 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114772057377431896, guid: 11d1185debb1944eab70b071108c6ece, type: 3}
+  m_PrefabInstance: {fileID: 1987444737}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2065616882
 GameObject:
   m_ObjectHideFlags: 0
@@ -14792,7 +14822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2079035414
 RectTransform:
   m_ObjectHideFlags: 0

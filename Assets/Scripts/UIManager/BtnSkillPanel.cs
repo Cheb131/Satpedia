@@ -4,18 +4,16 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SkillBinhTai: MonoBehaviour
+public class BtnSkillPanel: MonoBehaviour
 {
 
     [Header("UI")]
     public Button buttonRoll;
     public GameObject uiStatic;
-    public GameObject skillTimePanel;
-    public Button[] skillTimeButtons; // size = 3
-
+    public GameObject panelSkill;
     void Start()
     {
-        skillTimePanel.SetActive(false);
+        panelSkill.SetActive(false);
         buttonRoll.onClick.AddListener(OnClick);
     }
     // =============================
@@ -25,6 +23,6 @@ public class SkillBinhTai: MonoBehaviour
     {
 
         uiStatic.SetActive(false);
-        skillTimePanel.SetActive(true);
+        panelSkill.SetActive(true);
     }
 }
